@@ -46,6 +46,8 @@ body
     background-color: #fff;
     /* ARREGLAR EL REDONDEO */
     overflow: hidden;
+    /* ESPACIADO */
+    margin: 2rem 1rem;
 }
 
 .box
@@ -188,15 +190,13 @@ h5 span.pm
 }
 
 /* MOBILE VERSION */
-@media (min-width: 375px)
+@media (max-width: 375px)
 {   
-    .container
-    {
-        padding: 72px 32px 62px 32px;
-    }
     .wrapper
     {
         grid-template-columns: 100%;
         grid-template-areas: "a" "b" "c";
     }
+    
+   
 }
